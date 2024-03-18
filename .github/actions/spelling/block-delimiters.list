@@ -1,0 +1,31 @@
+# Public Keys
+-----BEGIN PUBLIC KEY-----
+-----END PUBLIC KEY-----
+
+# RSA Private Key
+-----BEGIN RSA PRIVATE KEY-----
+-----END RSA PRIVATE KEY-----
+
+# GPG Public Key
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+-----END PGP PUBLIC KEY BLOCK-----
+
+# Certificates
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----
+
+# design/AcAC.md
+(lldb) p dumpActorCallBacktrace()
+```
+
+# design/AcAC.md
+echo "AsfmEwAAAAAACQAAAMfmEwAAAAAAAM2oiSx71iIAGrSuCzh6ICZdEwAAAAAAJl0TAAAAAAAA
+bin/acac
+
+# fdbrpc/Base64Decode.cpp
+StringRef urlEncodedTestData
+};
+
+# fdbclient/Tracing.actor.cpp
+const char* longString =
+";
