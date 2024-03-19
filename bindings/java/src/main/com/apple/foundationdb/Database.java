@@ -334,7 +334,7 @@ public interface Database extends AutoCloseable, TransactionContext {
 	 *
 	 * @param beginKey start of the key range
 	 * @param endKey end of the key range
-	 * @param version version to read at
+	 * @param version to read at
 	 *
 	 * @return a future with the version of the last blob granule.
 	 */
@@ -347,7 +347,7 @@ public interface Database extends AutoCloseable, TransactionContext {
 	 *
 	 * @param beginKey start of the key range
 	 * @param endKey end of the key range
-	 * @param version version to read at
+	 * @param version to read at
 	 * @param e the {@link Executor} to use for asynchronous callbacks
 	 *
 	 * @return a future with the version of the last blob granule.
@@ -373,7 +373,7 @@ public interface Database extends AutoCloseable, TransactionContext {
 	 * @param beginKey start of the key range
 	 * @param endKey end of the key range
 	 * @param compact force compact or just flush
-	 * @param version version to flush at
+	 * @param version to flush at
 	 *
 	 * @return a future with a boolean for success or failure
 	 */
@@ -387,7 +387,7 @@ public interface Database extends AutoCloseable, TransactionContext {
 	 * @param beginKey start of the key range
 	 * @param endKey end of the key range
 	 * @param compact force compact or just flush
-	 * @param version version to flush at
+	 * @param version to flush at
 	 * @param e the {@link Executor} to use for asynchronous callbacks
 	 *
 	 * @return a future with a boolean for success or failure
